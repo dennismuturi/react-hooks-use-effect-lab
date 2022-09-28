@@ -12,7 +12,7 @@ function Question({ question, onAnswered }) {
       setTimeRemaining(1000);
       onAnswered(false);
     }
-  },[timeRemaning])
+  },[timeRemaining])
 
   function handleAnswer(isCorrect) {
     setTimeRemaining(10);
